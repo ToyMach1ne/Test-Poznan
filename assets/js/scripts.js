@@ -21,7 +21,7 @@
 	      	center: uluru,
 	       	disableDefaultUI: true
 	       });
-	  var iconBase = '../img/';
+	  var iconBase = 'img/';
 	  var marker = new google.maps.Marker({
 	  	position: uluru,
 	  	 map: map,
