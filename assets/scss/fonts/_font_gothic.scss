@@ -1,0 +1,15 @@
+$rb-font-path: '../fonts' !default;
+
+@font-face {
+  font-family: 'LeagueGothic';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/leaguegothic-regular-webfont.eot');
+  src: local('LagueGothic Regular'),
+  local('leaguegothic-regular'),
+  url('#{$rb-font-path}/leaguegothic-regular-webfont.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/leaguegothic-regular-webfont.ttf') format('ttf'),
+  url('#{$rb-font-path}/leaguegothic-regular-webfont.svg') format('svg'),
+  url('#{$rb-font-path}/leaguegothic-regular-webfont.woff') format('woff');
+}
